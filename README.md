@@ -7,7 +7,7 @@
 <img src="./images/pipeline.png">
 
 <div align="justify">
-Here we see that after one round of federated training, the generator can generate decent 'fake' samples. The clients are evaluated against these fake samples, and based on their classification accuracy, we can identify malicious ones.<i> It should be noted that this setup needs the client distributions to be IID.</i> The benign clients will then be aggregated. What we change is the model architecture in <i>GAN training</i>. The figure below depicts applied distributed WCGAN model.
+Here we see that after one round of federated training, the generator can generate decent 'fake' samples. The clients are evaluated against these fake samples, and based on their classification accuracy, we can identify malicious ones.<i> It should be noted that this setup needs the client distributions to be IID.</i> The benign clients will then be aggregated. What we change is the model architecture in <i>GAN training</i>. The figure below depicts the applied distributed WCGAN.
 </div>
 <br>
 
